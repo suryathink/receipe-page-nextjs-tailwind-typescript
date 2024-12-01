@@ -27,11 +27,46 @@ export default function Home() {
               <h3 className={styles.preparationContentHeading}>
                 Preparation time
               </h3>
-              <ul>
-                <li>Total: Approximately 10 minutes</li>
-                <li>Preparation: 5 minutes</li>
-                <li>Cooking: 5 minutes</li>
-              </ul>
+              <div className={styles.preparationTime}>
+                <ul>
+                  <li>
+                    <strong className={styles.strongColor}>Total:</strong>{" "}
+                    Approximately 10 minutes
+                  </li>
+                  <li>
+                    <strong className={styles.strongColor}>
+                      {" "}
+                      Preparation:
+                    </strong>{" "}
+                    5 minutes
+                  </li>
+                  <li>
+                    <strong className={styles.strongColor}>Cooking:</strong> 5
+                    minutes
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className={styles.ingredientsParentContainer}>
+              <h3 className={styles.heading}>Ingredients</h3>{" "}
+              <div className={styles.ingredientsList}>
+                <ul>
+                  <li>2-3 large eggs</li>
+                  <li>Salt, to taste</li>
+                  <li>Pepper, to taste</li>
+                  <li>1 tablespoon of butter or oil</li>
+                  <li>
+                    Optional fillings: cheese, diced vegetables, cooked meats,
+                    herbs
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <hr className={styles.lineBreak} />
+
+            <div className={styles.instructionsContainer}>
+              <h3 className={styles.mainTitle}>Instructions</h3>{" "}
             </div>
           </div>
         </div>

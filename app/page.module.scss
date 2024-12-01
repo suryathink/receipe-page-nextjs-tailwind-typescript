@@ -2,17 +2,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  // border: 5px solid blue;
 }
 
 .parentContainer {
-  // border: 1px solid red;
   margin-left: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-right: 50px;
   width: 600px;
-  height: 1000px;
+  // height: 1000px;
   background-color: hsl(0, 0%, 100%);
   display: flex;
   align-items: center;
@@ -21,7 +19,6 @@
 }
 
 .container {
-  // border: 5px solid teal;
   width: 90%;
   height: 100%;
   padding-top: 20px;
@@ -32,19 +29,91 @@
   border-radius: 10px;
 }
 .contentContainer {
-  border: 1px solid red;
+  // border: 1px solid red;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .heading {
   font-size: 30px;
   font-weight: 600;
+  color: hsl(24, 5%, 18%);
 }
 .introSection {
   font-size: 13px;
+  color: hsl(30, 10%, 34%);
+  font-weight: 500;
+  margin-top: 15px;
 }
 .preparationContent {
+  background-color: hsl(330, 100%, 98%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 20px;
 }
 
 .preparationContentHeading {
+  color: hsl(332, 51%, 32%);
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.preparationTime ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: hsl(332, 51%, 32%);
+}
+
+.preparationTime ul li {
+  list-style-type: "•";
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  padding-left: 30px;
+}
+
+.strongColor {
+  color: hsl(30, 10%, 34%);
+  font-weight: bold;
+}
+.ingredientsParentContainer {
+  .heading {
+    color: hsl(14, 45%, 36%);
+    padding-bottom: 15px;
+  }
+  .ingredientsList {
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      color: hsl(14, 45%, 36%);
+      li {
+        color: hsl(30, 10%, 34%);
+        list-style-type: "•";
+        margin-bottom: 5px;
+        font-size: 16px;
+        font-size: 16px;
+        color: #333;
+        line-height: 1.6;
+        padding-left: 30px;
+      }
+    }
+  }
+}
+.lineBreak {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.instructionsContainer {
+  .mainTitle {
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+    font-weight: 600;
+  }
 }
